@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.background {
+  background-image: url("inicio_fondo.jpg");
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
