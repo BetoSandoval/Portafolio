@@ -4,7 +4,7 @@
 }
 
 .background {
-  background-image: url("inicio_fondo.jpg");
+  background-image: url("inicio_fondo.png");
   background-attachment: fixed;
   background-size: 100% 100%;
 }
