@@ -20,7 +20,35 @@
 .portafolio p{
     color: rgb(240, 96, 35);
     font-family:europa, sans-serif;
-    font-size: 12px;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.1111111111111111rem;
+}
+
+.header{
+    height: 192px;
+    font-family: acta-display, serif;
+    font-size: 40px;
+    font-stretch: 100%;
+    font-style: normal;
+    color: whitesmoke;
+    letter-spacing: 1px;
+}
+
+.header span{
+    color: black;
+}
+
+.name{
+    height: 44px;
+    width: 1117.6px;
+    padding-top: 48px;
+}
+
+.name p{
+    font-size: 15px;
+    color: whitesmoke;
+    font-family:europa, sans-serif;
     text-transform: uppercase;
     letter-spacing: 0.1111111111111111rem;
 }
