@@ -1,46 +1,156 @@
 <!DOCTYPE html>
-<html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="estilos/incio_bar_menu.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="estilos/main.css" type="text/css" />
-    <title>Alberto Sandoval-Desarrollo Web</title>
-  </head>
-  <body class="background">
-    <div id="content-holder">
-      <header class="nav">
-        <div class="logo">
-          <img src="" alt="" />
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/normalize.css/">
+  <!-- Fuentes fotawesome-->
+  <script src="https://kit.fontawesome.com/ae1d7e8fe4.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Alberto Sandoval</title>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <a href="#">Acerca de</a>
+        <a href="#">Trabajos</a>
+        <a href="#">Contacto</a>
+
+        <div class="text-container">
+          <h1 class="name">Alberto Sandoval</h1>
+          <h2 class="profetion">Desarrollador Web</h2>
         </div>
-        <nav class="right-nav">
-          <ul class="menu">
-            <li>
-              <a href="">Inicio</a>
-            </li>
-            <li>
-              <a href="">Trabajos</a>
-            </li>
-            <li>
-              <a href="">Acerca de mi</a>
-            </li>
-            <li class="">
-              <a href="">Contacto</a>
-            </li>
-          </ul>
-        </nav>
-      </header>
-      <section class="main">
-        <div class="portafolio">
-          <p>Portafolio</p>
+      </nav>
+    </div>
+  </header>
+
+  <section class="main">
+    <!-- Contenedor de la sección acerca de -->
+    <div class="container">
+      <section class="about">
+        <div class="photo">
+          <img src="img/foto2.jpeg" alt="Alberto Sandoval Añorve" width="115" height="115">
         </div>
-        <div class="header">
-          <h1>Desarrollador de <span>software,</span> <br/>Desarrollo & Diseño <span>web.</span></h1>
-        </div>
-        <div class="name">
-          <p>Por Alberto Sandoval</p>
+  
+        <div class="text">
+          <h3 class="title">Acerca de</h3>
+          <p>¡Hola! Mi nombre es <span class="bold">Alberto Sandoval</span class="bold">, soy desarrollador web, actualmente radico en la Ciudad de México, soy un apasionado del desarrollo de software, desarrollo y diseño web, así como del mundo de la tecnología en general. Busco aportar a la creación y desarrollo de aplicaciónes web eficientes y de calidad.</p>
         </div>
       </section>
     </div>
-  </body>
+
+    <!-- Conrenedor de la sección trabajos -->
+    <section class="works">
+      <!-- titulo trabajos -->
+      <div class="container">
+        <h3 class="title">Trabajos</h3>
+        <div class="container-works">
+          <!-- trabajo 1 -->
+          <div class="work">
+            <div class="thum">
+              <img src="img/1.jpg" alt="savitos">
+            </div>
+            <div class="description">
+              <p class="nombre">Savitos</p>
+              <p class="categoria">HTML-CSS-JAVA SCRIPT</p>
+            </div>
+          </div>
+          <!-- trabajo 2 -->
+          <div class="work">
+            <div class="thum">
+              <img src="img/1.jpg" alt="savitos">
+            </div>
+            <div class="description">
+              <p class="nombre">Savitos</p>
+              <p class="categoria">HTML-CSS-JAVA SCRIPT</p>
+            </div>
+          </div>
+          <!-- trabajo 3 -->
+          <div class="work">
+            <div class="thum">
+              <img src="img/1.jpg" alt="savitos">
+            </div>
+            <div class="description">
+              <p class="nombre">Savitos</p>
+              <p class="categoria">HTML-CSS-JAVA SCRIPT</p>
+            </div>
+          </div>
+          <!-- trabajo 4 -->
+          <div class="work">
+            <div class="thum">
+              <img src="img/1.jpg" alt="savitos">
+            </div>
+            <div class="description">
+              <p class="nombre">Savitos</p>
+              <p class="categoria">HTML-CSS-JAVA SCRIPT</p>
+            </div>
+          </div>
+          <!-- trabajo 5 -->
+          <div class="work">
+            <div class="thum">
+              <img src="img/1.jpg" alt="savitos">
+            </div>
+            <div class="description">
+              <p class="nombre">Savitos</p>
+              <p class="categoria">HTML-CSS-JAVA SCRIPT</p>
+            </div>
+          </div>
+          <!-- trabajo 6 -->
+          <div class="work">
+            <div class="thum">
+              <img src="img/1.jpg" alt="savitos">
+            </div>
+            <div class="description">
+              <p class="nombre">Savitos</p>
+              <p class="categoria">HTML-CSS-JAVA SCRIPT</p>
+            </div>
+          </div>
+          <!-- trabajo 7 -->
+          <div class="work">
+            <div class="thum">
+              <img src="img/1.jpg" alt="savitos">
+            </div>
+            <div class="description">
+              <p class="nombre">Savitos</p>
+              <p class="categoria">HTML-CSS-JAVA SCRIPT</p>
+            </div>
+          </div>
+          <!-- trabajo 8 -->
+          <div class="work">
+            <div class="thum">
+              <img src="img/1.jpg" alt="savitos">
+            </div>
+            <div class="description">
+              <p class="nombre">Savitos</p>
+              <p class="categoria">HTML-CSS-JAVA SCRIPT</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+  </section>
+
+  <footer>
+    <section class="contac">
+      <div class="container">
+        <h3 class="title">Contacto</h3>
+        <form action="formulario">
+          <input type="text" placeholder="Nombre" name="name" required>
+          <input type="email" placeholder="Correo electornico" name="email" required>
+          <textarea name="mensaje" placeholder="mensaje"></textarea>
+          <input class="botton" type="submit" value="Enviar">
+        </form>
+      </div>
+    </section>
+
+    <section class="social-media">
+      <div class="container">
+        <a href="https://github.com/BetoSandoval" class="github"><i class="fab fa-github-square"></i></a>
+        <a href="https://www.linkedin.com/in/alberto-sandoval-a%C3%B1orve-a29775a2/" class="linkedin"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </section>
+  </footer>
+</body>
 </html>
