@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: #fff;
+    font-family: "Open Sans", Arial,sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+.container{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+/*--- --- HEADER --- ---*/
+
+header{
+    background: linear-gradient(
+        rgba(40, 49, 55, 0.9),
+        rgba(0, 0, 0, 0.9)), 
+        url(../img/devweb1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-height: 600px;
+}
+
+
+header .menu{
+    margin: 40px 0;
+    text-align: right;
+}
+
+header .menu a{
+    margin: 0 20px;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "europa", sans-serif;
+    padding: 9px;
+    display: inline-block;
+    font-size: 1em;
+}
+
+header .menu a:hover{
+    text-decoration: line-through #f06023;
+}
+
+header .text-container{
+    display: flex;
+    margin: 190px 0;
+    justify-content: center;
+    align-content: center;
+}
+
+header .text-container .text{
+    border: 2px solid rgba(240, 96, 35, 0.7);
+    border-radius: 3px;
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+}
+
+header .text-container .text h1,
+header .text-container .text h2{
+    color: #fff;
+    font-family: "acta-display", serif;
+    font-weight: 300;
+    margin: 0;
+}
+
+header .text-container .text h1{
+    margin-bottom: 10px;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+header .text-container .text h2{
+    font-size: 25px;
+    line-height: 25px;
+}
