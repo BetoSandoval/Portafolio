@@ -16,12 +16,12 @@ body{
     overflow: hidden;
 }
 
-/*--- --- HEADER --- ---*/
+/*--- --- --- HEADER --- --- ---*/
 
 header{
     background: linear-gradient(
-        rgba(40, 49, 55, 0.9),
-        rgba(0, 0, 0, 0.9)), 
+        rgba(40, 49, 55, 0.8),
+        rgba(0, 0, 0, 1)), 
         url(../img/devweb1.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -82,4 +82,47 @@ header .text-container .text h1{
 header .text-container .text h2{
     font-size: 25px;
     line-height: 25px;
+}
+
+/* --- --- --- MAIN --- --- --- */
+
+.main .container{
+    overflow: visible;
+}
+
+.main .about{
+    text-align: center;
+}
+
+.main .about .photo{
+    margin-top: -60px;
+}
+
+.main .about .photo img{
+    vertical-align: top;
+    border-radius: 50%;
+    border: 5px solid rgba(40, 49, 55, 0.2);
+}
+
+.main .text{
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 30px;
+    width: 80%;
+    margin: 40px auto;
+}
+
+.main .text .title{
+    font-family: 'europea',sans-serif;
+    color: #f06023;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 34px;
+}
+
+.main .text p{
+    font-family: "acta-display", serif;
+    font-size: 1.2em;
 }
