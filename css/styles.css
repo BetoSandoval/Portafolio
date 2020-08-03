@@ -302,6 +302,13 @@ footer .social-media a{
 }
 
 @media screen and (max-width: 500px){
+    header{
+        height: 400px;
+    }
+    header .text-container{
+        position: relative;
+        top: -100px;
+    }
     header .text-container .text .name{
         font-size: 35px;
     }
