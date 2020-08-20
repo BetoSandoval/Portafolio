@@ -312,6 +312,11 @@ footer .social-media a {
   header .text-container .text .profetion {
     font-size: 18px;
   }
+  .main .works .works-container .work .thum img {
+    height: 250px;
+ 
+  }
+
   footer .contact .formulario input[type="text"],
   footer .contact .formulario input[type="email"],
   footer .contact .formulario textarea {
