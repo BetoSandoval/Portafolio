@@ -164,6 +164,7 @@ header .text-container .text h2 {
 
 .main .works .works-container .work .thum img {
   width: 100%;
+  height: 500px;
   vertical-align: top;
   border-radius: 3px;
   opacity: 0.8;
